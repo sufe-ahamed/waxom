@@ -341,7 +341,7 @@ banner part start
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
- 
+  
 }
 .video_overlay {
 	padding-top: 210px;
@@ -363,6 +363,10 @@ banner part start
 	font-family: 'Montserrat', sans-serif;
 	line-height: 28px;
 	padding: 0px 5px;
+}
+.play_icon i{
+  font-size: 40px;
+  color: rgb(247, 150, 4);
 }
 /* video part end */
 
@@ -713,5 +717,8 @@ banner part start
 }
 .right_text p{
   text-align: right;
+}
+widget_img:hover img{
+  animation: zoom out linner 0.3s;
 }
 /* footer part end */
